@@ -9,7 +9,7 @@ public class variaveisTiposBasicos {
         char sexo = 'M';
         boolean maiorIdade = true;
         String nome = "Fernando";
-        System.out.println(nome + peso + idade + maiorIdade);
+        System.out.println(nome + sexo + peso + idade + maiorIdade);
 
     }
 
