@@ -7,7 +7,7 @@ public class saidaDeDados {
 
     public static void main(String[] args) {
         /*
-        Quando o programa informa dados para o usuário
+         * Quando o programa informa dados para o usuário
          */
         System.out.print("Sem quebra de linha");
         System.out.println("com quebra de linha");
