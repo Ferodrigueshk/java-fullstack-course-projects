@@ -1,5 +1,6 @@
 package estruturaSequencial;
 
+import java.time.LocalDate;
 import java.util.Locale;
 
 public class saidaDeDados {
@@ -22,6 +23,11 @@ public class saidaDeDados {
         System.out.println("Resultado: " + x + " metros.");
         System.out.printf("Resultado: %.2f metros.%n", x);
 
+        String nome = "Cristiano Ronaldo";
+        int anoAtual = LocalDate.now().getYear();
+        int idade = anoAtual - 1985;
+        double salario = 20000000.00;
+        System.out.printf("%s tem %d anos e ganha anualmente %.2f de euros.%n", nome, idade, salario);
     }
 
 }
