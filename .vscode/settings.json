@@ -3,5 +3,6 @@
         "anos",
         "anualmente",
         "estrutura"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
