@@ -40,12 +40,15 @@ public class processamentodeDadosCasting {
         System.out.println("--- ");
         /* __________________Parte D da Aula_________________________ */
 
+        System.out.println("--- ");
         int num1, num2;
         double resultado2;
         num1 = 5;
         num2 = 2;
         resultado2 = num1 / num2;
         System.out.println(resultado2);
+        System.out.println("--- ");
+
     }
 
 }
