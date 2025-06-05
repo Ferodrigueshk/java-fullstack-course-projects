@@ -45,7 +45,7 @@ public class processamentodeDadosCasting {
         double resultado2;
         num1 = 5;
         num2 = 2;
-        resultado2 = num1 / num2;
+        resultado2 = (double) num1 / num2;
         System.out.println(resultado2);
         System.out.println("--- ");
 
