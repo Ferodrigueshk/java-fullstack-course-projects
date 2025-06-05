@@ -20,7 +20,7 @@ public class entradaDadosJava {
         char sexo = scan.next().charAt(0);
         System.out.println("Sexo: " + sexo);
 
-        /* ------------- Para ler vário sdados na mesma linha ---------------- */
+        /* ------------- Para ler vários dados na mesma linha ---------------- */
         String a1;
         int a2;
         double a3;
@@ -29,6 +29,8 @@ public class entradaDadosJava {
         a2 = scan.nextInt();
         a3 = scan.nextDouble();
         System.out.println(a1 + " " + a2 + " " + a3);
+
+        /* ------------- Continuaão da aula ---------------- */
 
         scan.close();
     }
