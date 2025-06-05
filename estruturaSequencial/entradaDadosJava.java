@@ -1,5 +1,7 @@
-import java.util.Scanner;
+package estruturaSequencial;
+
 import java.util.Locale;
+import java.util.Scanner;
 
 public class entradaDadosJava {
     public static void main(String[] args) {

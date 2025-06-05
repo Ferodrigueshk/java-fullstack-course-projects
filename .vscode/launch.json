@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "entradaDadosJava",
+            "request": "launch",
+            "mainClass": "estruturaSequencial.entradaDadosJava",
+            "projectName": "java-fullstack-course-projects_5fa4ff45"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
