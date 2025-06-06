@@ -49,6 +49,11 @@ public class entradaDadosJava {
          */
 
         String s1, s2, s3;
+        int x1;
+
+        System.out.println("Digite um número inteiro");
+        x1 = scan.nextInt();
+
         System.out.println("Digite S1");
         s1 = scan.nextLine();
         System.out.println("Digite S2");
@@ -61,6 +66,10 @@ public class entradaDadosJava {
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);
+
+        /*
+         * ------------- Quebra de linha pendente ---------------
+         */
 
         scan.close();
     }
