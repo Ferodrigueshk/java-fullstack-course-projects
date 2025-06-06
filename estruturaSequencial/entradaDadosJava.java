@@ -29,16 +29,16 @@ public class entradaDadosJava {
         /*
          * ------------- Para ler vários dados na mesma linha ----------------
          */
-        String a1;
-        int a2;
-        double a3;
-        System.out.println("Digite a variavel a1");
-        a1 = scan.next();
-        System.out.println("Digite a variavel a2");
-        a2 = scan.nextInt();
-        System.out.println("Digite a variavel a3");
-        a3 = scan.nextDouble();
-        System.out.println(a1 + " " + a2 + " " + a3);
+        // String a1;
+        // String a2;
+        // String a3;
+        // System.out.println("Digite a variavel a1");
+        // a1 = scan.next();
+        // System.out.println("Digite a variavel a2");
+        // a2 = scan.next();
+        // System.out.println("Digite a variavel a3");
+        // a3 = scan.next();
+        // System.out.println(a1 + " " + a2 + " " + a3);
 
         /*
          * ------------- Continuação da aula ----------------
@@ -49,9 +49,14 @@ public class entradaDadosJava {
          */
 
         String s1, s2, s3;
+        System.out.println("Digite S1");
         s1 = scan.nextLine();
+        System.out.println("Digite S2");
         s2 = scan.nextLine();
+        System.out.println("Digite S3");
         s3 = scan.nextLine();
+        
+
         System.out.println("Dados digitados: ");
         System.out.println(s1);
         System.out.println(s2);
