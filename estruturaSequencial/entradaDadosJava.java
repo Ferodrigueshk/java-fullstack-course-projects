@@ -41,8 +41,6 @@ public class entradaDadosJava {
         s2 = scan.nextLine();
         s3 = scan.nextLine();
 
-        
-
         System.out.println("Dados digitados:");
         System.out.println(s1);
         System.out.println(s2);
